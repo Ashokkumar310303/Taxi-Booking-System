@@ -33,8 +33,6 @@ Handles invalid inputs and ensures smooth user experience.
 
 ## 🧮 Distance & Fare Logic
 
-📏 **Distance Calculation**  
-The app uses a **weighted graph structure** to calculate the shortest path (Dijkstra's Algorithm) between pickup and drop locations.
 
 💰 **Fare Calculation Formula**  
 Fare = Base Fare + (Distance × Rate per km)
@@ -66,9 +64,7 @@ javac com/practice/TaxiBookingSystem/*.java
 # 4. Run the application
 java com.practice.TaxiBookingSystem.MainClass
 🏗 Project Structure
-css
-Copy
-Edit
+
 src/
 └── com/
     └── practice/
